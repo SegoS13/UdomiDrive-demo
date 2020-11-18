@@ -1,0 +1,259 @@
+{
+  "project_info": {
+    "project_number": "64950913030",
+    "firebase_url": "https://adomiciliocuenca.firebaseio.com",
+    "project_id": "adomiciliocuenca",
+    "storage_bucket": "adomiciliocuenca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64950913030:android:15e6dfc1990cc798eedb87",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64950913030-geuscptkg5hbbhjonvjuurv3t06qkpgb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase",
+            "certificate_hash": "f02ead777cfa998ede854f895f2fc509d9d658bc"
+          }
+        },
+        {
+          "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrXJdYB_f5bn815Dn9rIqT20KYvQaemC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64950913030-lf7s62mps2tpa8f8ql0e496v9uthc3cf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ec.com.startapps.udomi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64950913030:android:e4ee6b6acc3d9771eedb87",
+        "android_client_info": {
+          "package_name": "com.pawa.ec.motorizado_app_master"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrXJdYB_f5bn815Dn9rIqT20KYvQaemC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64950913030-lf7s62mps2tpa8f8ql0e496v9uthc3cf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ec.com.startapps.udomi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64950913030:android:8fa1b4d289e9ee00eedb87",
+        "android_client_info": {
+          "package_name": "com.pawa.ec.udomidrive_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64950913030-oo1ubn9chmrrucil1qhjpkp9tojuqhvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pawa.ec.udomidrive_demo",
+            "certificate_hash": "f02ead777cfa998ede854f895f2fc509d9d658bc"
+          }
+        },
+        {
+          "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrXJdYB_f5bn815Dn9rIqT20KYvQaemC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64950913030-lf7s62mps2tpa8f8ql0e496v9uthc3cf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ec.com.startapps.udomi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64950913030:android:68e00160666b4fceeedb87",
+        "android_client_info": {
+          "package_name": "com.pawa.ec.udriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrXJdYB_f5bn815Dn9rIqT20KYvQaemC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64950913030-lf7s62mps2tpa8f8ql0e496v9uthc3cf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ec.com.startapps.udomi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64950913030:android:ee9cd1c0bd1dad70eedb87",
+        "android_client_info": {
+          "package_name": "ec.com.startapps.udomi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64950913030-bgqulc8fajc128mmp9cofuqvfl0ujm37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ec.com.startapps.udomi",
+            "certificate_hash": "f02ead777cfa998ede854f895f2fc509d9d658bc"
+          }
+        },
+        {
+          "client_id": "64950913030-ekq3rsomrejnjv8ujphh09pl2becq8sb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ec.com.startapps.udomi",
+            "certificate_hash": "d15ef60f71853fef9297a62dbaa3dc08b75ef571"
+          }
+        },
+        {
+          "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrXJdYB_f5bn815Dn9rIqT20KYvQaemC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64950913030-lf7s62mps2tpa8f8ql0e496v9uthc3cf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ec.com.startapps.udomi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64950913030:android:104224b5d19020b5eedb87",
+        "android_client_info": {
+          "package_name": "pe.com.startapps.udomi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrXJdYB_f5bn815Dn9rIqT20KYvQaemC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64950913030-1tcnlr8hcb2idjqu6o3nkqlkb9n95f3u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64950913030-lf7s62mps2tpa8f8ql0e496v9uthc3cf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ec.com.startapps.udomi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
