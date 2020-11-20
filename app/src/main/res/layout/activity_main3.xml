@@ -4,211 +4,184 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gree"
-    tools:context=".MainActivity3">
-    <LinearLayout
+    tools:context=".UI.User.MainActivitys">
+    <fragment
+        android:id="@+id/map"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical">
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@mipmap/ic_person"
-            app:civ_border_width="2dp"
-            app:civ_border_color="@color/gree"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"/>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mis Datos"
-                android:textColor="@color/black"/>
-        </RelativeLayout>
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_location"
+            android:layout_gravity="center"/>
+    </RelativeLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_dehaze"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:elevation="10dp"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:background="@drawable/bg_rectangular_space">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="10dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="18dp"
-                        android:layout_height="18dp"
-                        android:src="@mipmap/ic_person" />
-                    <com.google.android.material.textfield.TextInputLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:passwordToggleEnabled="true">
-                        <androidx.appcompat.widget.AppCompatTextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:textSize="18dp"
-                            android:text="Renzo J. Francisco"/>
-                    </com.google.android.material.textfield.TextInputLayout>
-
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:gravity="end"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="¿ALGO PARA BEBER?"
+                android:textColor="@color/white"
+                android:textSize="11dp"
                 android:layout_marginRight="20dp"
-                android:background="@color/gree"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="18dp"
-                        android:layout_height="18dp"
-                        android:src="@mipmap/ic_mail" />
-                    <com.google.android.material.textfield.TextInputLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:passwordToggleEnabled="true">
-                        <androidx.appcompat.widget.AppCompatTextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:textSize="18dp"
-                            android:text="Renzo J. Francisco"/>
-                    </com.google.android.material.textfield.TextInputLayout>
-
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_button_orange_2"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:textSize="11dp"
+                android:textColor="@color/white"
                 android:layout_marginRight="20dp"
-                android:background="@color/gree"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginBottom="20dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="18dp"
-                        android:layout_height="18dp"
-                        android:src="@mipmap/ic_phone" />
-                    <com.google.android.material.textfield.TextInputLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:passwordToggleEnabled="true">
-                        <androidx.appcompat.widget.AppCompatTextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:textSize="18dp"
-                            android:text="Renzo J. Francisco" />
-                    </com.google.android.material.textfield.TextInputLayout>
-
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mis Datos"
-                android:textColor="@color/black"/>
-        </RelativeLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:elevation="10dp"
-            android:background="@drawable/bg_rectangular_space">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginBottom="10dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:textSize="18dp"
-                        android:text="Resumen del viaje por correo"/>
-                    <androidx.appcompat.widget.AppCompatCheckBox
-                        android:layout_width="120dp"
-                        android:layout_height="20dp"/>
-                </LinearLayout>
-            </LinearLayout>
+                android:text="CÓDIGO PROMOCIONAL"
+                android:background="@drawable/bg_button_orange_2"/>
         </LinearLayout>
 
     </LinearLayout>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
-    android:gravity="center_horizontal"
-    android:paddingBottom="15dp"
-    android:orientation="vertical">
-    <Button
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_button_black"
-        android:textColor="@color/white"
-        android:text="Finalizar"/>
     <LinearLayout
-        android:layout_width="150dp"
-        android:layout_height="10dp"
-        android:layout_marginTop="15sp"
-        android:background="@drawable/bg_button_green"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/containerData"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Hola Renzo,"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="¿A dónde vamos hoy?"/>
+        </LinearLayout>
 
-</LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+            <RelativeLayout
+                android:id="@+id/btn_geolocation"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:background="@drawable/bg_button_black">
+                <ImageView
+                    android:layout_height="20dp"
+                    android:layout_width="20dp"
+                    android:src="@drawable/location"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_above="@+id/relive"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_down"
+            android:contentDescription="TODO" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_button_orange_radius"
+                >
+                <fragment
+                    android:id="@+id/placeAutocompleteOrigin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/bg_button_orange_radius"
+                android:layout_marginBottom="5dp"
+                >
+                <fragment
+                    android:id="@+id/placeAutocompleteDestination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/relive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnRequestDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_green"
+            android:text="SOLICITAR VIAJE"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            />
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/bg_button_green"
+            />
+    </LinearLayout>
+
 
 </RelativeLayout>

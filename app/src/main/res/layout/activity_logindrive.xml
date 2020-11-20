@@ -5,8 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gree"
-    tools:context=".MainActivity5">
+    tools:context=".UI.Driver.LoginDriverActivity">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
     <LinearLayout
+        android:layout_below="@id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -57,11 +60,12 @@
                         android:layout_height="wrap_content"
                         android:background="@null"
                         android:gravity="center"
+                        android:text="segos@gmail.com"
                         android:hint="Correo electrónico"
                         android:textSize="18dp"
                         android:inputType="textEmailAddress"
                         android:imeOptions="actionDone"
-                        android:textStyle="bold" />
+                        />
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
@@ -88,13 +92,31 @@
                             android:gravity="center"
                             android:hint="Contraseña"
                             android:textSize="18dp"
+                            android:text="123456"
                             android:imeOptions="actionDone"
                             android:inputType="textPassword"
-                            android:textStyle="bold" />
+                            />
                     </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No tienes cuenta? "/>
+            <TextView
+                android:id="@+id/btn_crear_cuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Cree uno"/>
+        </LinearLayout>
         </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

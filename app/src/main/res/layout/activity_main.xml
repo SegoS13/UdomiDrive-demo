@@ -37,10 +37,10 @@
             android:textSize="50sp"
             android:text="udomi"/>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70sp"
-            android:textSize="30dp"
+            android:layout_marginLeft="110sp"
+            android:textSize="22dp"
             android:layout_marginTop="20sp"
             android:textColor="@color/gree"
             android:text="pide"/>
@@ -52,10 +52,10 @@
             android:textSize="22dp"
             android:text="Ahora traslada desde un solo lugar!"/>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="22dp"
-            android:layout_marginLeft="70sp"
+            android:layout_marginLeft="100sp"
             android:textColor="@color/gree"
             android:text="compra"/>
 

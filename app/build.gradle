@@ -20,6 +20,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
 }
 apply plugin: 'com.android.application'
@@ -55,4 +59,32 @@ dependencies {
     //Gif Image
     implementation 'com.felipecsl:gifimageview:2.1.0'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.0'
+
+    //Dialog progress
+    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+
+    //Google maps
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+
+    //Geolocalizacion
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+
+    //Gepfire guaradar la ubicacion
+    implementation 'com.firebase:geofire-android:2.2.0'
+
+    // Google autocomplete
+    implementation "com.google.android.libraries.places:places:1.1.0"
+
+    // Verificacion de lugares
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+    
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'com.firebaseui:firebase-ui-database:6.2.0'
+    implementation 'com.google.firebase:firebase-database:19.1.0'
+
+
+
+
+
 }
