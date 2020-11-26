@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UI.User.MainActivitys">
+    tools:context=".UI.User.UserLocationActivity">
+
     <fragment
         android:id="@+id/map"
         android:layout_width="match_parent"
@@ -130,14 +131,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/bg_button_orange_radius"
-                >
+                android:background="@drawable/bg_button_orange_radius">
                 <fragment
                     android:id="@+id/placeAutocompleteOrigin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
-                    />
+                    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -145,8 +144,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:background="@drawable/bg_button_orange_radius"
-                android:layout_marginBottom="5dp"
-                >
+                android:layout_marginBottom="5dp">
                 <fragment
                     android:id="@+id/placeAutocompleteDestination"
                     android:layout_width="match_parent"
@@ -171,11 +169,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_button_green"
-            android:text="SOLICITAR VIAJE"
+            android:text="SOLICITAR UDOMI"
             android:textColor="@color/white"
             android:layout_gravity="bottom"
             />
-        <LinearLayout
+        <View
             android:layout_width="150dp"
             android:layout_height="10dp"
             android:layout_marginTop="5sp"

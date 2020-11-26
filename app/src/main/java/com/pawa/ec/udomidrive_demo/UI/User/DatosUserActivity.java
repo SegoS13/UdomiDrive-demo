@@ -24,7 +24,7 @@ public class DatosUserActivity extends AppCompatActivity {
         btn_continue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DatosUserActivity.this, MainActivitys.class);
+                Intent intent = new Intent(DatosUserActivity.this, UserLocationActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }

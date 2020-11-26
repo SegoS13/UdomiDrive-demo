@@ -78,7 +78,7 @@ public class LoginDriverActivity extends AppCompatActivity {
                         // si se realizo la tarea
                         if(task.isSuccessful()){
                             //Toast.makeText(LoginDriverActivity.this, "Login realizado correctamente", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(LoginDriverActivity.this, MainActivity2.class);
+                            Intent intent = new Intent(LoginDriverActivity.this, DriverLocationActivity.class);
                             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
                         }else {
